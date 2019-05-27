@@ -1,0 +1,23 @@
+/* 
+  Localized.strings
+  GeoNotes
+
+  Created by Игорь Пинаев on 23/05/2019.
+  Copyright © 2019 Igor Pinaev. All rights reserved.
+*/
+
+
+"All notes" =  "Все заметки";
+"Create new folder" = "Создать папку";
+"Folder name" = "Имя папки";
+"Create" = "Создать";
+"Cancel" = "Отмена";
+" item(-s)" = " элемент(-ов)";
+
+"Untitled" = "Без имени";
+"Image for item" = "Изображение для заметки";
+"Make a photo" = "Сделать фото";
+"Select from library" = "Выбрать из библиотеки";
+"Delete" = "Удалить";
+"New Note" = "Новая заметка";
+
