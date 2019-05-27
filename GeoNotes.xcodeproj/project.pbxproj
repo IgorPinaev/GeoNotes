@@ -8,22 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		7D6D065B2293EE0800C8E5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D065A2293EE0800C8E5F9 /* AppDelegate.swift */; };
-		7D6D065D2293EE0800C8E5F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D065C2293EE0800C8E5F9 /* ViewController.swift */; };
 		7D6D06602293EE0800C8E5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D065E2293EE0800C8E5F9 /* Main.storyboard */; };
 		7D6D06632293EE0800C8E5F9 /* GeoNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06612293EE0800C8E5F9 /* GeoNotes.xcdatamodeld */; };
 		7D6D06652293EE0900C8E5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D06642293EE0900C8E5F9 /* Assets.xcassets */; };
 		7D6D06682293EE0900C8E5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D06662293EE0900C8E5F9 /* LaunchScreen.storyboard */; };
+		7D6D06772293FF9D00C8E5F9 /* ImageNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D066F2293FF9D00C8E5F9 /* ImageNote+CoreDataClass.swift */; };
+		7D6D06782293FF9D00C8E5F9 /* ImageNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06702293FF9D00C8E5F9 /* ImageNote+CoreDataProperties.swift */; };
+		7D6D06792293FF9D00C8E5F9 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06712293FF9D00C8E5F9 /* Note+CoreDataClass.swift */; };
+		7D6D067A2293FF9D00C8E5F9 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06722293FF9D00C8E5F9 /* Note+CoreDataProperties.swift */; };
+		7D6D067B2293FF9D00C8E5F9 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06732293FF9D00C8E5F9 /* Folder+CoreDataClass.swift */; };
+		7D6D067C2293FF9D00C8E5F9 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06742293FF9D00C8E5F9 /* Folder+CoreDataProperties.swift */; };
+		7D6D067D2293FF9D00C8E5F9 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06752293FF9D00C8E5F9 /* Location+CoreDataClass.swift */; };
+		7D6D067E2293FF9D00C8E5F9 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06762293FF9D00C8E5F9 /* Location+CoreDataProperties.swift */; };
+		7D6D06812294043A00C8E5F9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06802294043A00C8E5F9 /* CoreDataManager.swift */; };
+		7D6D06832294199600C8E5F9 /* FoldersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06822294199600C8E5F9 /* FoldersController.swift */; };
+		7D6D06852294219C00C8E5F9 /* FolderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06842294219C00C8E5F9 /* FolderController.swift */; };
+		7D6D068722951EFE00C8E5F9 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D068622951EFE00C8E5F9 /* NoteController.swift */; };
+		7D6D06892296620200C8E5F9 /* SelectFolderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06882296620200C8E5F9 /* SelectFolderController.swift */; };
+		7D6D068C22966A0200C8E5F9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D068B22966A0200C8E5F9 /* LocationManager.swift */; };
+		7D6D068E2296961C00C8E5F9 /* NoteMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D068D2296961C00C8E5F9 /* NoteMapController.swift */; };
+		7D6D06902296A88100C8E5F9 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D068F2296A88100C8E5F9 /* MapController.swift */; };
+		7D6D06952296BCFA00C8E5F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D6D06932296BCFA00C8E5F9 /* Localizable.strings */; };
+		7D6D06972296BD6D00C8E5F9 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D06962296BD6D00C8E5F9 /* LocalizationManager.swift */; };
+		7D6F99D7229BDFDA00B28A37 /* note_launch in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F99D6229BDFDA00B28A37 /* note_launch */; };
+		7DA5BFB32297BBD600AA76D5 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5BFB22297BBD600AA76D5 /* NoteCell.swift */; };
+		7DA5BFB52297C15500AA76D5 /* note_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5BFB42297C15500AA76D5 /* note_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D6D06572293EE0800C8E5F9 /* GeoNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6D065A2293EE0800C8E5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D6D065C2293EE0800C8E5F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D6D065F2293EE0800C8E5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D6D06622293EE0800C8E5F9 /* GeoNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoNotes.xcdatamodel; sourceTree = "<group>"; };
 		7D6D06642293EE0900C8E5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D6D06672293EE0900C8E5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D6D06692293EE0900C8E5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6D066F2293FF9D00C8E5F9 /* ImageNote+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7D6D06702293FF9D00C8E5F9 /* ImageNote+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7D6D06712293FF9D00C8E5F9 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7D6D06722293FF9D00C8E5F9 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7D6D06732293FF9D00C8E5F9 /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7D6D06742293FF9D00C8E5F9 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7D6D06752293FF9D00C8E5F9 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7D6D06762293FF9D00C8E5F9 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7D6D06802294043A00C8E5F9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7D6D06822294199600C8E5F9 /* FoldersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersController.swift; sourceTree = "<group>"; };
+		7D6D06842294219C00C8E5F9 /* FolderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderController.swift; sourceTree = "<group>"; };
+		7D6D068622951EFE00C8E5F9 /* NoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
+		7D6D06882296620200C8E5F9 /* SelectFolderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderController.swift; sourceTree = "<group>"; };
+		7D6D068B22966A0200C8E5F9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7D6D068D2296961C00C8E5F9 /* NoteMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMapController.swift; sourceTree = "<group>"; };
+		7D6D068F2296A88100C8E5F9 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		7D6D06912296B99C00C8E5F9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		7D6D06922296B99C00C8E5F9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7D6D06942296BCFA00C8E5F9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7D6D06962296BD6D00C8E5F9 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		7D6F99D6229BDFDA00B28A37 /* note_launch */ = {isa = PBXFileReference; lastKnownFileType = file; path = note_launch; sourceTree = "<group>"; };
+		7DA5BFB22297BBD600AA76D5 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		7DA5BFB42297C15500AA76D5 /* note_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +98,60 @@
 		7D6D06592293EE0800C8E5F9 /* GeoNotes */ = {
 			isa = PBXGroup;
 			children = (
+				7D6D067F2293FFA900C8E5F9 /* Model */,
+				7DA5BFB22297BBD600AA76D5 /* NoteCell.swift */,
 				7D6D065A2293EE0800C8E5F9 /* AppDelegate.swift */,
-				7D6D065C2293EE0800C8E5F9 /* ViewController.swift */,
-				7D6D065E2293EE0800C8E5F9 /* Main.storyboard */,
+				7D6F99D8229BE09300B28A37 /* Controllers */,
 				7D6D06642293EE0900C8E5F9 /* Assets.xcassets */,
+				7D6D065E2293EE0800C8E5F9 /* Main.storyboard */,
 				7D6D06662293EE0900C8E5F9 /* LaunchScreen.storyboard */,
 				7D6D06692293EE0900C8E5F9 /* Info.plist */,
-				7D6D06612293EE0800C8E5F9 /* GeoNotes.xcdatamodeld */,
+				7D6D06932296BCFA00C8E5F9 /* Localizable.strings */,
+				7DA5BFB42297C15500AA76D5 /* note_icon.png */,
+				7D6F99D6229BDFDA00B28A37 /* note_launch */,
 			);
 			path = GeoNotes;
+			sourceTree = "<group>";
+		};
+		7D6D067F2293FFA900C8E5F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D068A229669E000C8E5F9 /* CoreData */,
+				7D6D068B22966A0200C8E5F9 /* LocationManager.swift */,
+				7D6D06962296BD6D00C8E5F9 /* LocalizationManager.swift */,
+			);
+			name = Model;
+			path = ../Model;
+			sourceTree = "<group>";
+		};
+		7D6D068A229669E000C8E5F9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D06612293EE0800C8E5F9 /* GeoNotes.xcdatamodeld */,
+				7D6D06732293FF9D00C8E5F9 /* Folder+CoreDataClass.swift */,
+				7D6D06742293FF9D00C8E5F9 /* Folder+CoreDataProperties.swift */,
+				7D6D06712293FF9D00C8E5F9 /* Note+CoreDataClass.swift */,
+				7D6D06722293FF9D00C8E5F9 /* Note+CoreDataProperties.swift */,
+				7D6D06752293FF9D00C8E5F9 /* Location+CoreDataClass.swift */,
+				7D6D06762293FF9D00C8E5F9 /* Location+CoreDataProperties.swift */,
+				7D6D066F2293FF9D00C8E5F9 /* ImageNote+CoreDataClass.swift */,
+				7D6D06702293FF9D00C8E5F9 /* ImageNote+CoreDataProperties.swift */,
+				7D6D06802294043A00C8E5F9 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7D6F99D8229BE09300B28A37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D06822294199600C8E5F9 /* FoldersController.swift */,
+				7D6D06842294219C00C8E5F9 /* FolderController.swift */,
+				7D6D068622951EFE00C8E5F9 /* NoteController.swift */,
+				7D6D06882296620200C8E5F9 /* SelectFolderController.swift */,
+				7D6D068D2296961C00C8E5F9 /* NoteMapController.swift */,
+				7D6D068F2296A88100C8E5F9 /* MapController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +196,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 7D6D064E2293EE0800C8E5F9;
 			productRefGroup = 7D6D06582293EE0800C8E5F9 /* Products */;
@@ -125,7 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA5BFB52297C15500AA76D5 /* note_icon.png in Resources */,
+				7D6D06952296BCFA00C8E5F9 /* Localizable.strings in Resources */,
 				7D6D06682293EE0900C8E5F9 /* LaunchScreen.storyboard in Resources */,
+				7D6F99D7229BDFDA00B28A37 /* note_launch in Resources */,
 				7D6D06652293EE0900C8E5F9 /* Assets.xcassets in Resources */,
 				7D6D06602293EE0800C8E5F9 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +229,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D6D065D2293EE0800C8E5F9 /* ViewController.swift in Sources */,
+				7D6D06772293FF9D00C8E5F9 /* ImageNote+CoreDataClass.swift in Sources */,
+				7D6D068E2296961C00C8E5F9 /* NoteMapController.swift in Sources */,
+				7D6D06832294199600C8E5F9 /* FoldersController.swift in Sources */,
+				7D6D06972296BD6D00C8E5F9 /* LocalizationManager.swift in Sources */,
+				7D6D067C2293FF9D00C8E5F9 /* Folder+CoreDataProperties.swift in Sources */,
+				7D6D06852294219C00C8E5F9 /* FolderController.swift in Sources */,
+				7D6D068C22966A0200C8E5F9 /* LocationManager.swift in Sources */,
+				7DA5BFB32297BBD600AA76D5 /* NoteCell.swift in Sources */,
+				7D6D067B2293FF9D00C8E5F9 /* Folder+CoreDataClass.swift in Sources */,
+				7D6D06782293FF9D00C8E5F9 /* ImageNote+CoreDataProperties.swift in Sources */,
+				7D6D067E2293FF9D00C8E5F9 /* Location+CoreDataProperties.swift in Sources */,
+				7D6D06792293FF9D00C8E5F9 /* Note+CoreDataClass.swift in Sources */,
 				7D6D06632293EE0800C8E5F9 /* GeoNotes.xcdatamodeld in Sources */,
+				7D6D067D2293FF9D00C8E5F9 /* Location+CoreDataClass.swift in Sources */,
 				7D6D065B2293EE0800C8E5F9 /* AppDelegate.swift in Sources */,
+				7D6D06892296620200C8E5F9 /* SelectFolderController.swift in Sources */,
+				7D6D068722951EFE00C8E5F9 /* NoteController.swift in Sources */,
+				7D6D067A2293FF9D00C8E5F9 /* Note+CoreDataProperties.swift in Sources */,
+				7D6D06902296A88100C8E5F9 /* MapController.swift in Sources */,
+				7D6D06812294043A00C8E5F9 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +259,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7D6D065F2293EE0800C8E5F9 /* Base */,
+				7D6D06912296B99C00C8E5F9 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +268,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				7D6D06672293EE0900C8E5F9 /* Base */,
+				7D6D06922296B99C00C8E5F9 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7D6D06932296BCFA00C8E5F9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6D06942296BCFA00C8E5F9 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -231,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
