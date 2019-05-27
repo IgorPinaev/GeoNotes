@@ -19,7 +19,6 @@ struct LocationCoordinate {
 }
 
 class LocationManager: NSObject, CLLocationManagerDelegate {
-
     static let sharedInstance = LocationManager()
     
     var manager = CLLocationManager()
@@ -31,9 +30,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     var blockForSave: ((LocationCoordinate) -> Void)?
     
     func getCurrentLocation(block: ((LocationCoordinate) -> Void)?) {
-        
-        if CLLocationManager.authorizationStatus() != .authorizedWhenInUse
-        {
+        if CLLocationManager.authorizationStatus() != .authorizedWhenInUse {
             print("Пользователь не дал доступа к локации")
             return
         }
@@ -50,5 +47,4 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         blockForSave?(locationCoordinate)
         manager.stopUpdatingLocation()
     }
-
 }

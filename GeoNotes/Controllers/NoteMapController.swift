@@ -28,10 +28,9 @@ class NoteAnnotation: NSObject, MKAnnotation {
 }
 
 class NoteMapController: UIViewController {
-
-    var note: Note?
+    @IBOutlet private weak var mapView: MKMapView!
     
-    @IBOutlet weak var mapView: MKMapView!
+    var note: Note?
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -9,13 +9,12 @@
 import UIKit
 
 class NoteCell: UITableViewCell {
-
-    var note: Note?
+    @IBOutlet private weak var imageNote: UIImageView!
+    @IBOutlet private weak var labelNameNote: UILabel!
+    @IBOutlet private weak var labelDateUpdate: UILabel!
+    @IBOutlet private weak var labelLocation: UILabel!
     
-    @IBOutlet weak var imageNote: UIImageView!
-    @IBOutlet weak var labelNameNote: UILabel!
-    @IBOutlet weak var labelDateUpdate: UILabel!
-    @IBOutlet weak var labelLocation: UILabel!
+    var note: Note?
     
     func initCell(note: Note) {
         self.note = note
@@ -37,16 +36,4 @@ class NoteCell: UITableViewCell {
             labelLocation.text = ""
         }
     }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }
