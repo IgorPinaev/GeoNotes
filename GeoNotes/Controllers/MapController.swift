@@ -10,8 +10,7 @@ import UIKit
 import MapKit
 
 class MapController: UIViewController {
-
-    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet private weak var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +20,17 @@ class MapController: UIViewController {
         
         let longTapGR = UILongPressGestureRecognizer(target: self, action: #selector(handleLongTap))
         mapView.gestureRecognizers = [longTapGR]
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        mapView.removeAnnotations(mapView.annotations)
+        for note in notes {
+            if note.locationActual != nil {
+                mapView.addAnnotation(NoteAnnotation(note: note))
+            }
+        }
     }
     
     @objc func handleLongTap(recognizer: UIGestureRecognizer) {
@@ -35,21 +45,10 @@ class MapController: UIViewController {
         
         pushNoteController(newNote: newNote)
     }
-
-
-    override func viewWillAppear(_ animated: Bool) {
-        mapView.removeAnnotations(mapView.annotations)
-        for note in notes {
-            if note.locationActual != nil {
-                mapView.addAnnotation(NoteAnnotation(note: note))
-            }
-        }
-    }
 }
 
 extension MapController: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        
         if annotation is MKUserLocation{
             DispatchQueue.main.async {
                mapView.setCenter(annotation.coordinate, animated: true)
